@@ -1,0 +1,124 @@
+.wrappper
+
+  .header
+    .header-content
+      .header-content__logo
+        = link_to "#" do
+          %h3 Gotou takeyuki
+        = link_to "#" do
+          %h4 portfolio
+    .header-nav-container
+      %ul
+        %li
+          %a(href="#about")
+            About
+        %li
+          %a(href="#work")
+            Work
+        %li
+          %a(href="#faq")
+            FAQ
+        %li
+          %a(href="#contact")
+            Contact
+
+  .cover
+    .cover-content
+      .cover-content__comment
+        %h1 テクノロジーを通じて
+        %h2 多くの人を笑顔にしたい
+
+
+  .about
+    .about-content
+      .about-content__comment
+        %h2#about About
+        .about-content__comment__image
+          = image_tag "takeprofile.jpg"
+        .about-content__comment__text
+          %h5 後藤 健 gotou takeyuki
+          %p.txt 新潟県出身, 愛知県の中京学校を卒業
+          %p.txt 工具商社で営業を学ぶ
+          %p.txt 2020年2月プログラミングの道へ。
+          %p.txt TECH::CAMP 71期 卒業 
+
+  .work
+    .work-content
+      .work-content__comment
+        %h2#work Work
+        .work-content__comment__textleft
+          %h2 海が綺麗
+          = link_to "#" do
+            %h2  hoho
+          = image_tag "po1.jpg" 
+          .work-content__comment__textleft__undear
+            %h2 壁が綺麗
+            = link_to "#" do
+              %h2  hoho
+            = image_tag "po2.jpg" 
+        .work-content__comment__textright  
+          %h2 山が綺麗
+          = link_to "#" do
+            %h2  hoho
+          = image_tag "po3.jpg"  
+          .work-content__comment__textright__undear
+            %h2 野菜が綺麗
+            = link_to "#" do
+              %h2  hoho
+            = image_tag "po4.jpg" 
+
+
+  .faq-wrapper
+    .container
+      .heading
+        %h2#faq FAQ
+      .faq
+        %ul#faq-list
+          %li.faq-list-item
+            %h3.question 後藤の趣味は？
+            %span +
+            .answer
+              %p フットサルです。
+          %li.faq-list-item
+            %h3.question エンジニアになりやってみたいこと？
+            %span +
+            .answer
+              %p テクノロジーを通じて多くの人の役にたちたい。
+          %li.faq-list-item
+            %h3.question 特徴は？
+            %span +
+            .answer
+              %p 諦めないことです。
+
+
+
+
+  .contact
+    .contact-content
+      .contact-content__text
+        %h2#contact Contact
+        .contact-content__text__mail
+          %h3 メールアドレス　
+        .contact-content__text__comment
+          %span.btn takeoamiki@hotmail.co.jp
+
+        
+  
+  
+  .footer
+    .footer-content
+      .fotter-content__item
+        %ul
+          %li
+            %a(href="#about")
+              About
+          %li
+            %a(href="#work")
+              Work
+          %li
+            %a(href="#faq")
+              FAQ    
+          %li
+            %a(href="#contact")
+              Contact
+              
