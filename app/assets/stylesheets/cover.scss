@@ -1,0 +1,45 @@
+.cover{
+  width: 100%;
+  }
+  
+  .cover-innner {
+    position: relative;
+    max-width: 950px;
+  }
+  
+  
+  .cover-inner p {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-size: 50px;
+    color: red;
+  }
+  
+  .slideshow {
+    position: relative;
+    min-width: auto;
+    height: 600px;
+   
+  }
+  
+  
+  .slideshow img {
+    display: none;
+    position: absolute;
+  }
+  
+
+  @media (max-width: 670px) {
+    .cover-inner p {
+     position: absolute;
+     top: 10%;
+     left: 0%;
+     font-size: 30px;
+    }
+    .slideshow {
+      height: 300px;
+    }
+  }
+

@@ -23,10 +23,19 @@
             Contact
 
   .cover
-    .cover-content
-      .cover-content__comment
-        %h1 テクノロジーを通じて
-        %h2 多くの人を笑顔にしたい
+    .cover-inner
+      %ul.slideshow
+        %li
+          %img{:alt => "", :height => "100%", :src => "assets/main.jpg", :width => "100%"}/
+          %p テクノロジーの可能性と！
+        %li
+          %img{:alt => "", :height => "100%", :src => "assets/main2.jpg", :width => "100%"}/
+          %p これまでの経験とを掛け合わせ！
+        %li
+          %img{:alt => "", :height => "100%", :src => "assets/main3.jpg", :width => "100%"}/
+          %p 多くの人の役にたちたい！
+        
+        
 
 
   .about
@@ -36,12 +45,15 @@
         .about-content__comment__image
           = image_tag "takeprofile.jpg"
         .about-content__comment__text
-          %h5 後藤 健 gotou takeyuki
-          %p.txt 新潟県出身, 愛知県の中京学校を卒業
-          %p.txt 工具商社で営業を学ぶ
-          %p.txt 2020年2月プログラミングの道へ。
-          %p.txt TECH::CAMP 71期 卒業 
-
+          %h5 後藤 健之 gotou takeyuki
+          %h4 『自己紹介』
+          %p.txt 新潟県出身、愛知県の中京大学を卒業。
+          %p.txt 2020年2月 TECH::CAMP入学。
+          %p.txt 2020年5月 人生最後の挑戦を全力で行う為、
+          %p.kai 2020年5月会社退社。
+          %p.txt TECH::CAMP 71期 2020年8月 卒業 
+          
+          
   .work
     .work-content
       .work-content__comment

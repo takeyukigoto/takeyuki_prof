@@ -11,139 +11,9 @@
 
 
 
-.cover{
-width: 100%;
-}
-
-
-.cover-content{
-background-image: image-url("main.jpg");
-background-size:cover;
-background-position: center center;                              /* 画像のサイズを指定  */
-width:100%;                                            /* 横幅のサイズを指定  */ 
-text-align: left;
-padding-top: 100px;
-padding-bottom: 100px;
-&__comment{
-max-width: 950px;
-width: 100%;
-margin: auto;
-h1{
-font-size: 50px;
-color:#FF33FF;
-}
-h2{
-color: #FF33FF;
-font-size: 50px;
-
-}  
-}
-}
-
-
-@media (max-width: 1000px) {
-  .cover-content__comment {
-  h1{
-    font-size: 60px;
-  }
-  h2{
-    font-size: 60px;
-  }
-}
-}
-
-@media (max-width: 670px) {
-  .cover-content__comment {
-    h1{
-      font-size: 45px;
-      margin-left: 5px;
-    }
-    h2{
-      font-size: 45px;
-      margin-left: 5px;
-    }
-  }
-}
 
 
 
-.about-content{
-width: 100%;
-padding-top: 10px;
-background-color: #EEE8AA	;
-&__comment{
-max-width: 950px;
-width: 100%;
-margin: auto;
-font-size: 50px;
-display: flex;
-justify-content: start;
-h2{
-font-size: 50px;
-margin-top: 20px;
-}
-&__image{
-  img{
-height: 150px;
-width: 150px;
-object-fit: cover; 
-margin-top: 90px;
-margin-left: -150px;
-margin-right: 20px;
-}
-}
-img:hover{
-  transform: scale(1.1, 1.1);
-}
-&__text {
-  h5{
-    font-size: 20px;
-    padding-top: 65px;
-  }
-  p{
-    font-size: 20px;
-    padding-top: 10px;
-  }
-}
-}
-}
- 
-  
-
-@media (max-width: 670px) {
-  .about-content__comment {
-    display: block;
-    text-align: left;
-  h2{
-    font-size: 40px;
-    margin-left: 5px;
-    }
-    &__image{
-    img{
-    height: 150px;
-    width: 150px;
-    margin: 0 auto;
-    object-fit: cover; 
-    text-align: center;
-    margin-left: 5px;
-    } 
-}
-  }
-
-
-  .about-content__comment__text {
-    h5{
-      font-size: 20px;
-      padding-top: 10px;
-      margin-left: 5px;
-    }
-    p{
-      font-size: 20px;
-      padding-top: 10px;
-      margin-left: 5px;
-    }
-  }  
-}
 
 
 
@@ -151,7 +21,7 @@ img:hover{
 .work-content{
 width: 100%;
 padding-top: 50px;
-background-color: #EEE8AA;
+background-color: #FFFFCC;
 &__comment{
 max-width: 950px;
 width: 100%;
@@ -239,7 +109,7 @@ img:hover{
 .faq-wrapper{
   width: 100%;
   padding-top: 50px;
-  background-color: #EEE8AA;
+  background-color: #FFFFCC;
 }
 
 .container{
@@ -304,7 +174,7 @@ margin: auto;
 .contact-content{
 width: 100%;
 padding-top: 50px;
-background-color: #EEE8AA;
+background-color: #FFFFCC;
 &__text{
 max-width: 950px;
 width: 100%;
