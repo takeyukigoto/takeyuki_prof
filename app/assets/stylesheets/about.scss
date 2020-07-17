@@ -16,13 +16,13 @@
   }
   &__image{
     img{
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   object-fit: cover; 
-  margin-top: 90px;
+  margin-top: 100px;
   margin-left: -150px;
   margin-right: 20px;
-  border-radius: 30px;
+  border-radius: 80px;
   }
   }
   img:hover{
@@ -35,22 +35,24 @@
       margin-left: 30px;
     }
     h4{
-      font-size: 30px;
+      font-size: 25px;
       padding-top: 20px;
       padding-left: 40px;
     }
     p{
-      font-size: 20px;
+      font-size: 15px;
       padding-top: 10px;
       padding-left: 65px;
       letter-spacing: 0.15em;
     }
     .kai {
-      padding-left: 205px;
+      padding-left: 170px;
     }
   }
   }
   }
+
+  
    
     
   
@@ -71,20 +73,26 @@
       text-align: center;
       margin-left: 5px;
       } 
-  }
     }
-  
-  
+  }
     .about-content__comment__text {
-      h5{
-        font-size: 20px;
+      h5 {
+        font-size: 25px;
         padding-top: 10px;
         margin-left: 5px;
+      }
+      h4 {
+        font-size: 20px;
+        padding-left: 0px;
       }
       p{
         font-size: 20px;
         padding-top: 10px;
         margin-left: 5px;
+        padding-left: 0px;
+      }
+      .kai{
+        padding-left: 0px;
       }
     }  
-  }
+}

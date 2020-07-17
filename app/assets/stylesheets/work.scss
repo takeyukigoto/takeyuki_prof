@@ -1,0 +1,122 @@
+.work {
+  width: 100%;
+  background-color: #FFFFCC;
+  &-content{
+  padding-top: 50px;
+  max-width: 950px;
+  margin: auto;
+  }
+  h2{
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+}
+  
+.work-content__comment {
+  display: flex;
+  &__comment  {
+  color: black;
+}
+}
+
+.work-content__comment__textleft {
+  padding-left: 30px;
+  padding-right: 170px;
+  h5 {
+  font-size: 30px;
+  padding-bottom: 10px;
+  }
+  &___textleft img{
+  padding-bottom: 10px;
+  } 
+  p {
+    padding-bottom: 10px;
+    letter-spacing: 0.1em;
+  }
+}
+
+.work-content__comment__textleft:hover {
+  opacity: 0.7;
+  transform: scale(1.1, 1.1);
+}
+
+.work-content__comment__textright h5 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+img {
+  padding-bottom: 10px;
+}
+p {
+  padding-bottom: 10px;
+  letter-spacing: 0.1em;
+}
+
+
+.work-content__comment__textright:hover {
+  opacity: 0.7;
+  transform: scale(1.1, 1.1);
+}
+
+.furima_01 {
+  width: 400px;
+  height: 400px;
+}
+
+.futsal_01 {
+  width: 400px;
+  height: 400px;
+}
+
+
+@media (max-width: 670px) {
+  .work-content h2{
+   font-size: 40px;
+  }
+  .work-content__comment{
+    display: block;
+  }
+  .work-content__comment h5 {
+    font-size: 20px;
+  }
+  .work-content__comment__textleft {
+    padding-left: 0px;
+    padding-bottom: 10px;
+  }
+  .work-content__comment__textleft:hover {
+    transform: none;
+  }
+  .work-content__comment__textright:hover {
+    transform: none;
+  }
+  .furima_01 {
+    width: 200px;
+    height: 200px;
+  }
+  .futsal_01 {
+    width: 200px;
+    height: 200px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
