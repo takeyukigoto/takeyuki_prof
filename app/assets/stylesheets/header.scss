@@ -23,7 +23,6 @@
 }
 
 
-
 .header-nav-container{
   max-width: 950px;
   width: 100%;
@@ -43,16 +42,6 @@ a:hover{
   color: red;
 }
 
-
-
-@media (max-width: 1000px) {
-  .header-content__logo {
-  font-size: 35px;
-  }
-  .header-nav-container ul {
-    font-size: 20px;
-  }
-}
 
 
 @media (max-width: 670px) {

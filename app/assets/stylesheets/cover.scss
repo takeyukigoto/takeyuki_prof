@@ -1,21 +1,18 @@
 .cover{
   width: 100%;
-  }
-  
-  .cover-innner {
+  &-innner {
     position: relative;
     max-width: 950px;
   }
-  
-  
-  .cover-inner p {
+  p {
     display: none;
     position: absolute;
     top: 25%;
-    left: 25%;
+    left: 20%;
     font-size: 50px;
     color: red;
   }
+}
   
   .slideshow {
     position: relative;
@@ -23,7 +20,6 @@
     height: 600px;
    
   }
-  
   
   .slideshow img {
     display: none;
@@ -40,7 +36,7 @@
      font-size: 30px;
     }
     .slideshow {
-      height: 300px;
+      height: 350px;
     }
   }
 
