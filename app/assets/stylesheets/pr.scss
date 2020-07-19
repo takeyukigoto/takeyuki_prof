@@ -1,0 +1,40 @@
+.pr {
+  width: 100%;
+  background-color: #FFFFCC;
+  &-content {
+  padding-top: 50px;
+  max-width: 950px;
+  margin: auto;
+}
+h2 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+}
+
+.prhead {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.prcoment {
+  padding-bottom: 0px;
+}
+
+.prcoment2 {
+ padding-top: 10px;
+}
+
+.prcoment3 {
+  padding-bottom: 0px;
+}
+
+
+@media (max-width: 670px) {
+  .pr h2 {
+    font-size: 40px;
+  }
+  .pr-content__comment p{
+    text-align: left;
+  }
+}

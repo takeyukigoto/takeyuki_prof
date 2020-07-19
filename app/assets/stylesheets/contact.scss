@@ -1,0 +1,21 @@
+.contact-content{
+  width: 100%;
+  background-color: #FFFFCC;
+  padding: 15px 0;
+  &__text{
+  max-width: 950px;
+  margin: auto;
+  h2{
+    font-size: 50px;
+  }
+}
+}
+  
+@media (max-width: 670px) {
+  .contact-content h2 {
+    font-size: 40px;
+  }
+}
+
+
+
