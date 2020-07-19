@@ -26,13 +26,13 @@
     .cover-inner
       %ul.slideshow
         %li
-          %img{:alt => "", :height => "100%", :src => "assets/main.jpg", :width => "100%"}/
+          = image_tag 'main.jpg', width: '100%', height: '100%', alt: 'スライドメイン写真1'
           %p ZEROからの挑戦をあえて選んだのは！
         %li
-          %img{:alt => "", :height => "100%", :src => "assets/main2.jpg", :width => "100%"}/
+          = image_tag 'main2.jpg', width: '100%', height: '100%', alt: 'スライドメイン写真2'
           %p テクノロジーの可能性と,これまでの経験とを掛け合わせ！
         %li
-          %img{:alt => "", :height => "100%", :src => "assets/main3.jpg", :width => "100%"}/
+          = image_tag 'main3.jpg', width: '100%', height: '100%', alt: 'スライドメイン写真3'
           %p 多くの人の役に立ちたいと思ったからです！
         
         
@@ -63,8 +63,10 @@
           %h5 <フリーマーケットアプリ＞ 
           = link_to "http://18.181.155.100/" do
             = image_tag 'furima.jpg' , class: "furima_01"
-          %p.come 技術/ HTML,CSS,Rails.AWS.DB,github
+          
+          
           %p.come 機能/ 新規登録、ログイン、編集、etc
+          %p.come 技術/ HTML,CSS,Rails.AWS.DB.github
           %p.come 制作について/ チームメンバー４名でアジャイル開発
           %p.come 学び/ チームワークの大切さ、完成した時、一人ではなくチーム同士で称えあえる素晴らしさ。
           %p.come 是非見てください/ 写真をクリックしたら遷移します。
@@ -74,8 +76,10 @@
           %h5 <フットサルホームページ＞ 
           = link_to "http://176.32.86.158/" do
             = image_tag 'fut.jpg' , class: "futsal_01"
-          %p.komef 技術/HTML,CSS,Javascript,rails,AWS,mediaQueri
+          
+          
           %p.komef 機能/モーダル、アコーディオン、フェードイン,etc
+          %p.komef 技術/HTML,CSS,Javascript,rails.github.mediaqri
           %p.komef 制作について/趣味のフットサル、HPを通じてよりフットサル場の集客、魅力を伝える事を意識しました。
           %p.komef 学び/お客様目線でHPを作成する難しさ、多角的により勉強してお客様のためになるHPを作成し、貢献できる様になりたいと思いました。
           %p.komef 是非見てください/ 写真をクリックしたら遷移します。
@@ -102,16 +106,16 @@
       .contact-content__text
         %h2#contact Contact
         .contact-content__text__mail
-          %h3 メールアドレス　
-        .contact-content__text__comment
-          %P takeoamiki@hotmail.co.jp
+          メールアドレス　takeoamiki@hotmail.co.jp
+          ご連絡お待ちしております。
+        
 
         
   
   
   .footer
     .footer-content
-      .fotter-content__item
+      .footer-content__item
         %ul
           %li
             %a(href="#about")
@@ -120,8 +124,8 @@
             %a(href="#work")
               Work
           %li
-            %a(href="#faq")
-              FAQ    
+            %a(href="#pr")
+              PR    
           %li
             %a(href="#contact")
               Contact
