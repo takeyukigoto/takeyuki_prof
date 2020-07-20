@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: takeyuki_prof_production
-  username: takeyuki_prof
-  password: <%= ENV['TAKEYUKI_PROF_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
