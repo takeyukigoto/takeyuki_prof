@@ -21,11 +21,20 @@
 }
 
 .work-content__comment__textleft {
-  padding-left: 30px;
-  padding-right: 60px;
+  margin-right: 170px;
+}
+
+.work-content__comment__textleft__inner {
   letter-spacing: 0.1em;
-  &___textleft img{
+  overflow: hidden;
+	width: 300px;
+  height: 300px;
+  img{
   padding-bottom: 10px;
+  width: 300px;
+  height: 300px;
+  display: block;
+  transition: 0.5s;
   } 
   .come.o{
     font-size: 20px;
@@ -36,7 +45,8 @@
   }
 }
 
-.work-content__comment__textleft:hover {
+
+.work-content__comment__textleft img:hover {
   opacity: 0.7;
   transform: scale(1.1, 1.1);
 }

@@ -59,19 +59,21 @@
       %h2#works Works
       .work-content__comment
         .work-content__comment__textleft
-          = link_to "http://18.181.155.100/" do
-            = image_tag 'furima1.jpg' , class: "furima_01"
+          .work-content__comment__textleft__inner
+            = link_to "http://18.181.155.100/" do
+              = image_tag 'furima1.jpg' , class: "furima_01"
           
           %p.come.o フリーマーケットサイト
           %p.come HTML,CSS,Rails.AWS.DB.
-          %p.come javascript,github
-       
+          %p.come javascript
+        
           = link_to "https://github.com/takeyukigoto/freemarket_sample_71a/" do
             %p.come git hub
           
         .work-content__comment__textright 
-          = link_to "http://176.32.86.158/" do
-            = image_tag 'fut.jpg' , class: "futsal_01"
+          .work-content__comment__textleft__inner
+            = link_to "http://176.32.86.158/" do
+              = image_tag 'fut.jpg' , class: "futsal_01"
           
           
           %p.komef 機能/モーダル、アコーディオン、フェードイン,etc
