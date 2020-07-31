@@ -8,7 +8,7 @@
   margin: auto;
   }
   h2{
-    font-size: 50px;
+    font-size: 40px;
     padding-bottom: 20px;
   }
 }
@@ -23,19 +23,16 @@
 .work-content__comment__textleft {
   padding-left: 30px;
   padding-right: 60px;
-  h5 {
-  font-size: 30px;
-  padding-bottom: 10px;
-  }
+  letter-spacing: 0.1em;
   &___textleft img{
   padding-bottom: 10px;
   } 
-  .come {
+  .come.o{
+    font-size: 20px;
     padding-bottom: 10px;
-    letter-spacing: 0.1em;
   }
-  .comegi {
-    padding-bottom: 0px;
+  .come {
+    font-size: 15px;
   }
 }
 
@@ -64,13 +61,13 @@
 }
 
 .furima_01 {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 
 .futsal_01 {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 
 

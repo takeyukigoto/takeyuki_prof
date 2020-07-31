@@ -11,8 +11,8 @@
           %a(href="#about")
             About
         %li
-          %a(href="#work")
-            Work
+          %a(href="#works")
+            Works
         %li
           %a(href="#pr")
             PR
@@ -44,7 +44,7 @@
           = image_tag "takeyukitest.jpg"
         .about-content__comment__text
           
-          %p.txt 初めまして。後藤　健之と申します。
+          %p.txt はじめまして。後藤健之と申します。
           %p.txt お米の名産地、新潟県の田舎で生まれ、育ちました。
           %p.txt 趣味はフットサル！サッカー観戦！高校までは野球部で高校球児でしたが笑
           %p.txt これまでは惣菜店の店長、工具の営業をしていました！
@@ -52,28 +52,24 @@
           %p.txt 自分の作ったプロダクトで多くの人の役に立ちたい、創意工夫で面白い事をやりたいと思い
           %p.txt 人生最後の挑戦を決意！
           %p.txt 独学期間を経てプログラミングスクールTECH CAMP 2020年２月入学
-          %p.txt 2020年8月卒業　現在に至ります。
+          %p.txt 2020年8月卒業、現在に至ります。
 
   .work
     .work-content
-      %h2#work Work
+      %h2#works Works
       .work-content__comment
         .work-content__comment__textleft
-          %h5 <フリーマーケットアプリ＞ 
           = link_to "http://18.181.155.100/" do
-            = image_tag 'furima.jpg' , class: "furima_01"
+            = image_tag 'furima1.jpg' , class: "furima_01"
           
-          
-          %p.come 機能/ 新規登録、ログイン、編集、etc
-          %p.comegi 技術/ HTML,CSS,Rails.AWS.DB.github
-          %p.come github
-          %p.come 制作について/ チームメンバー４名でアジャイル開発
-          %p.come 学び/ チームワークの大切さ、完成した時、一人ではなくチーム同士で称えあえる素晴らしさ。
-          %p.come 是非見てください/ 写真をクリックしたら遷移します。
-          %p.come pass/ admin,2222 url/ "http://18.181.155.100/"
+          %p.come.o フリーマーケットサイト
+          %p.come HTML,CSS,Rails.AWS.DB.
+          %p.come javascript,github
+       
+          = link_to "https://github.com/takeyukigoto/freemarket_sample_71a/" do
+            %p.come git hub
           
         .work-content__comment__textright 
-          %h5 <フットサルホームページ＞ 
           = link_to "http://176.32.86.158/" do
             = image_tag 'fut.jpg' , class: "futsal_01"
           
@@ -123,8 +119,8 @@
             %a(href="#about")
               About
           %li
-            %a(href="#work")
-              Work
+            %a(href="#works")
+              Works
           %li
             %a(href="#pr")
               PR    
