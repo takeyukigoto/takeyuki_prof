@@ -3,7 +3,7 @@
   height: 100%;
   background-color:#ffffff;
   &-content{
-  padding-top: 80px;
+  padding-top: 180px;
   max-width: 950px;
   margin: auto;
   }
@@ -14,7 +14,7 @@
   p.workcome {
    margin-left: 10px;
    letter-spacing: 0.1em;
-   padding-bottom: 5px;
+   padding-bottom: 8px;
   }
 }
   
@@ -48,15 +48,15 @@
   font-size: 20px;
   margin-bottom: -15px;
   font-weight: 300;
-  
+  margin-left: 10px;
   }
 .come {
   font-size: 15px;
-  margin-left: 10px;
+  margin-left: 20px;
   }
   .comeh{
     font-size: 15px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 10px;
     }
 .come.g {
@@ -87,10 +87,11 @@
   font-size: 20px;
  margin-bottom: -15px;
   font-weight: 300;
+  margin-left: 10px;
 }
 
 .komef {
-  padding-left: 10px;
+  padding-left: 20px;
   font-size: 15px;
   
 }
@@ -146,11 +147,13 @@
 font-size: 20px;
 margin-bottom: -15px;
 font-weight: 300;
+margin-left: 10px;
 }
 
 .comeund {
   padding-left: 10px;
   font-size: 15px;
+  margin-left: 20px;
 }
 
 
@@ -158,11 +161,19 @@ font-weight: 300;
 font-size: 20px;
  margin-bottom: -15px;
 font-weight: 300;
+margin-left: 10px;
 }
 
 .komeundf {
   padding-left: 10px;
   font-size: 15px;
+  margin-left: 20px;
+}
+
+.comet {
+  padding-top: 10px;
+  color: royalblue;
+  margin-left: 30px;
 }
 
 
