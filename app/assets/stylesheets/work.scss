@@ -11,9 +11,15 @@
     font-size: 40px;
     padding-bottom: 20px;
   }
+  p.workcome {
+   margin-left: 10px;
+   letter-spacing: 0.1em;
+   padding-bottom: 5px;
+  }
 }
   
 .work-content__comment {
+  margin-top: 20px;
   display: flex;
   color: black;
   &__textleft {
@@ -41,8 +47,8 @@
 .comeo{
   font-size: 20px;
   margin-bottom: -15px;
-  margin-left: 0px;
   font-weight: 300;
+  
   }
 .come {
   font-size: 15px;
