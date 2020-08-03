@@ -2,14 +2,19 @@
   width: 100%;
   background-color: #ffffff;
   &-content {
-  padding-top: 50px;
+  padding-top: 80px;
   max-width: 950px;
   margin: auto;
 }
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   padding-bottom: 20px;
 }
+}
+
+.pr-content__comment {
+  letter-spacing: 0.1em;
+  margin-left: 5px;
 }
 
 .prhead {
@@ -19,20 +24,24 @@ h2 {
 
 .prcoment {
   padding-bottom: 0px;
+  
 }
 
 .prcoment2 {
  padding-top: 10px;
+ padding-left: 5px;
 }
 
 .prcoment3 {
   padding-bottom: 0px;
+  padding-left: 5px;
 }
 
 
 @media (max-width: 670px) {
   .pr h2 {
     font-size: 40px;
+    margin-left: 5px;
   }
   .pr-content__comment p{
     text-align: left;

@@ -3,7 +3,7 @@
   height: 100%;
   background-color:#ffffff;
   &-content{
-  padding-top: 50px;
+  padding-top: 80px;
   max-width: 950px;
   margin: auto;
   }
@@ -15,20 +15,55 @@
   
 .work-content__comment {
   display: flex;
-  &__comment  {
   color: black;
-}
-}
-
-.work-content__comment__textleft {
+  &__textleft {
   margin-right: 170px;
+  &__inner {
+    letter-spacing: 0.1em;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    img{
+      padding-bottom: 10px;
+      width: 300px;
+      height: 300px;
+      display: block;
+      transition: 0.5s;
+    } 
+    img:hover {
+      opacity: 0.7;
+      transform: scale(1.1, 1.1);
+    }
+   }
+  }
 }
 
-.work-content__comment__textleft__inner {
+.comeo{
+  font-size: 20px;
+  margin-bottom: -15px;
+  margin-left: 0px;
+  font-weight: 300;
+  }
+.come {
+  font-size: 15px;
+  margin-left: 10px;
+  }
+  .comeh{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+.come.g {
+  padding-top: 10px;
+  color: royalblue;
+  }
+
+.work-content__comment__textright__inner {
   letter-spacing: 0.1em;
   overflow: hidden;
 	width: 300px;
   height: 300px;
+  letter-spacing: 0.1em;
   img{
   padding-bottom: 10px;
   width: 300px;
@@ -36,79 +71,152 @@
   display: block;
   transition: 0.5s;
   } 
-  .come.o{
-    font-size: 20px;
-    padding-bottom: 10px;
-  }
-  .come {
-    font-size: 15px;
+  img:hover {
+    opacity: 0.7;
+    transform: scale(1.1, 1.1);
   }
 }
 
-
-.work-content__comment__textleft img:hover {
-  opacity: 0.7;
-  transform: scale(1.1, 1.1);
-}
-
-.work-content__comment__textright h5 {
-  font-size: 30px;
-  padding-bottom: 10px;
+.komeo {
+  font-size: 20px;
+ margin-bottom: -15px;
+  font-weight: 300;
 }
 
 .komef {
-  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  
+}
+
+
+.work-content__commentund {
+  display: flex;
+  color: black;
+  &__textleft {
+  margin-right: 170px;
+  &__inner {
+    letter-spacing: 0.1em;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    img{
+      padding-bottom: 10px;
+      width: 300px;
+      height: 300px;
+      display: block;
+      transition: 0.5s;
+    } 
+    img:hover {
+      opacity: 0.7;
+      transform: scale(1.1, 1.1);
+    }
+   }
+  }
+}
+
+
+.work-content__commentund__textright__inner {
   letter-spacing: 0.1em;
-}
-
-.komefgi {
-  padding-bottom: 0px;
-}
-
-.work-content__comment__textright:hover {
-  opacity: 0.7;
-  transform: scale(1.1, 1.1);
-}
-
-.furima_01 {
+  overflow: hidden;
+	width: 300px;
+  height: 300px;
+  letter-spacing: 0.1em;
+  img{
+  padding-bottom: 10px;
   width: 300px;
   height: 300px;
+  display: block;
+  transition: 0.5s;
+  } 
+  img:hover {
+    opacity: 0.7;
+    transform: scale(1.1, 1.1);
+  }
 }
 
-.futsal_01 {
-  width: 300px;
-  height: 300px;
+
+.comeundo {
+font-size: 20px;
+margin-bottom: -15px;
+font-weight: 300;
 }
+
+.comeund {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+
+.komeundo {
+font-size: 20px;
+ margin-bottom: -15px;
+font-weight: 300;
+}
+
+.komeundf {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
 
 
 @media (max-width: 670px) {
-  .work-content h2{
-   font-size: 40px;
+  .work-content{
+    margin-left: 5px;
+  &__comment{
+    display: block;
+  &__textleft{
+    margin-right: 0px;
+    padding-top: 10px;
+  &__inner{
+    margin-left: 5px;
   }
-  .work-content__comment{
+}
+  }
+  
+  .work-content__comment__textright__inner {
+    margin-left: 5px;
+  }
+  .work-content__comment__textright__inner img {
+    width: 200px;
+    height: 200px;
+  }
+  .work-content__comment__textleft__inner img {
+    width: 200px;
+    height: 200px;
+  }
+  .comeo {
+    margin-left: 5px;
+    margin-top: -90px;
+  }
+  .komeo {
+    margin-left: 5px;
+    margin-top: -90px;
+  }
+  
+  }
+
+  .work-content__commentund {
     display: block;
   }
-  .work-content__comment h5 {
-    font-size: 20px;
+
+  .work-content__commentund__textright__inner img {
+    width: 200px;
+    height: 200px;
   }
-  .work-content__comment__textleft {
-    padding-left: 0px;
-    padding-bottom: 10px;
-    padding-right: 0px;
+  .work-content__commentund__textleft__inner img {
+    width: 200px;
+    height: 200px;
   }
-  .work-content__comment__textleft:hover {
-    transform: none;
+
+  .comeundo {
+    margin-left: 5px;
+    margin-top: -90px;
   }
-  .work-content__comment__textright:hover {
-    transform: none;
-  }
-  .furima_01 {
-    width: 180px;
-    height: 180px;
-  }
-  .futsal_01 {
-    width: 180px;
-    height: 180px;
+  .komeundo {
+    margin-left: 5px;
+    margin-top: -90px;
   }
 
 }
@@ -132,4 +240,3 @@
 
 
 
-  

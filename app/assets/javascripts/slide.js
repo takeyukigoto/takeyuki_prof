@@ -1,35 +1,32 @@
 $(function () {
 
-  /*
-   * Slideshow
-   */
-  // slideshow クラスを持った要素ごとに処理を実行
+  
   $('.slideshow').each(function () {
 
-      var $slides = $(this).find('img'), // すべてのスライド
-          slideCount = $slides.length,   // スライドの点数
-          currentIndex = 0;              // 現在のスライドを示すインデックス
+      var $slides = $(this).find('img'), 
+          slideCount = $slides.length,   
+          currentIndex = 0;              
 
-      // 1 番目のスライドをフェードインで表示
+      
       $slides.eq(currentIndex).fadeIn();
 
-      // 7500 ミリ秒ごとに showNextSlide 関数を実行
+      
       setInterval(showNextSlide, 6000);
 
-      // 次のスライドを表示する関数
+    
       function showNextSlide () {
 
-          // 次に表示するスライドのインデックス
-          // (もし最後のスライドなら最初に戻る)
+          
+          
           var nextIndex = (currentIndex + 1) % slideCount;
 
-          // 現在のスライドをフェードアウト
+          
           $slides.eq(currentIndex).fadeOut();
 
-          // 次のスライドをフェードイン
+          
           $slides.eq(nextIndex).fadeIn();
 
-          // 現在のスライドのインデックスを更新
+          
           currentIndex = nextIndex;
       }
 
@@ -37,30 +34,30 @@ $(function () {
 
   $('.cover-inner').each(function () {
 
-    var $slidesp = $(this).find('p'), // すべてのスライド
-        slideCountp = $slidesp.length,   // スライドの点数
-        currentIndexp = 0;              // 現在のスライドを示すインデックス
+    var $slidesp = $(this).find('p'), 
+        slideCountp = $slidesp.length,   
+        currentIndexp = 0;              
 
-        // 1 番目のスライドをフェードインで表示
+        
       $slidesp.eq(currentIndexp).fadeIn();
 
-       // 7500 ミリ秒ごとに showNextSlide 関数を実行
+       
        setInterval(showNextSlidep, 6000);
 
-       // 次のスライドを表示する関数
+       
       function showNextSlidep () {
 
-        // 次に表示するスライドのインデックス
-          // (もし最後のスライドなら最初に戻る)
+        
+          
           var nextIndexp = (currentIndexp + 1) % slideCountp;
 
-          // 現在のスライドをフェードアウト
+          
           $slidesp.eq(currentIndexp).fadeOut();
 
-          // 次のスライドをフェードイン
+          
           $slidesp.eq(nextIndexp).fadeIn();
 
-           // 現在のスライドのインデックスを更新
+           
            currentIndexp = nextIndexp;
           }
 
