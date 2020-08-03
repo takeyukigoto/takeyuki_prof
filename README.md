@@ -9,13 +9,13 @@
 ・Responsive Design、Media Queries  
 ### 使用技術
 ### 言語・ライブラリー
-・HTML
-・CSS
-・JavaScript
-・jQuery
-・RAILS
+・HTML  
+・CSS  
+・JavaScript  
+・jQuery  
+・RAILS  
 ### 環境
-・AWS EC2
+・AWS EC2  
 ・Capistrano 自動デプロイ
 
 
