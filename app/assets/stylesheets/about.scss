@@ -1,56 +1,48 @@
 .about-content{
   width: 100%;
-  padding-top: 10px;
-  background-color: #FFFFCC;
+  padding-top: 30px;
+  background-color: #ffffff;
   &__comment{
   max-width: 950px;
   width: 100%;
   margin: auto;
-  font-size: 50px;
   display: flex;
   justify-content: start;
   h2{
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 20px;
   }
   &__image{
-    img{
+  overflow: hidden;
+	width: 200px;
   height: 200px;
-  width: 200px;
-  object-fit: cover; 
-  margin-top: 100px;
-  margin-left: -150px;
+  margin-top: 90px;
+  margin-left: -120px;
   margin-right: 20px;
-  border-radius: 100px;
+  img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  transition: 0.5s;
   }
   }
   img:hover{
     transform: scale(1.1, 1.1);
+    
   }
   &__text {
-    h5{
-      font-size: 30px;
-      padding-top: 65px;
-      margin-left: 30px;
-    }
-    h4{
-      font-size: 25px;
-      padding-top: 20px;
-      padding-left: 40px;
+      padding-top: 75px;
     }
     .txt{
-      font-size: 20px;
+      font-size: 15px;
       padding-top: 10px;
-      padding-left: 65px;
+      padding-left: 40px;
       letter-spacing: 0.1em;
     }
-    .kai {
-      padding-left: 200px;
-      font-size: 20px;
-    }
+    
   }
   }
-  }
+  
 
   
    
@@ -65,35 +57,18 @@
       margin-left: 5px;
       }
       &__image{
-      img{
-      height: 150px;
-      width: 150px;
-      margin: 0 auto;
-      object-fit: cover; 
-      text-align: center;
-      margin-left: 5px;
-      } 
+        margin-top: 20px;
+        margin-left: 10px;
+       
     }
   }
     .about-content__comment__text {
-      h5 {
-        font-size: 25px;
-        padding-top: 10px;
-        margin-left: 5px;
-      }
-      h4 {
-        font-size: 20px;
-        padding-left: 0px;
-      }
+      padding-top: 20px;
       .txt{
         font-size: 15px;
         padding-top: 10px;
-        margin-left: 5px;
+        margin-left: 10px;
         padding-left: 0px;
-      }
-      .kai{
-        padding-left: 5px;
-        font-size: 15px;
       }
     }  
 }

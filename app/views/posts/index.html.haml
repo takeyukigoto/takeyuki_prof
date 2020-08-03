@@ -3,18 +3,16 @@
   .header
     .header-content
       .header-content__logo
-        = link_to "#" do
-          %h3 Gotou takeyuki
-        = link_to "#" do
-          %h4 portfolio
+        %h3 Gotou takeyuki
+        %h3 portfolio
     .header-nav-container
       %ul
         %li
           %a(href="#about")
             About
         %li
-          %a(href="#work")
-            Work
+          %a(href="#works")
+            Works
         %li
           %a(href="#pr")
             PR
@@ -30,7 +28,7 @@
           %p ZEROからの挑戦をあえて選んだのは！
         %li
           = image_tag 'main2.jpg', width: '100%', height: '100%'
-          %p テクノロジーの可能性と,これまでの経験とを掛け合わせ！
+          %p テクノロジーの可能性と,経験を掛け合わせ！
         %li
           = image_tag 'main3.jpg', width: '100%', height: '100%'
           %p 多くの人の役に立ちたいと思ったからです！
@@ -43,52 +41,81 @@
       .about-content__comment
         %h2#about About
         .about-content__comment__image
-          = image_tag "takeprofile.jpg"
+          = image_tag "takeyuki5.jpg"
         .about-content__comment__text
-          %h5 <自己紹介＞
-          %h4 後藤　健之
-          %p.txt 新潟県出身、新潟の田舎で育ち、大学で愛知県へ、中京大学を卒業。
-          %p.txt 職歴：惣菜店の店長、工具商社の営業。
-          %p.txt 2020年2月 TECH::CAMP入学。
-          %p.txt 2020年5月 人生最後の挑戦を全力で行う為、
-          %p.kai 2020年5月会社退社。
-          %p.txt TECH::CAMP 71期 2020年8月 卒業 
           
-          
+          %p.txt はじめまして。後藤健之と申します。
+          %p.txt お米の名産地、新潟県の田舎で生まれ、育ちました。
+          %p.txt 趣味はフットサル！サッカー観戦！高校までは野球部で高校球児でしたが笑
+          %p.txt これまでは惣菜店の店長、工具の営業をしていました！
+          %p.txt 前職の社内改革を通じて、プログラミングがもたらす影響力、可能性に魅力を感じました。
+          %p.txt 自分の作ったプロダクトで多くの人の役に立ちたい、創意工夫で面白い事をやりたい！
+          %p.txt 人生最後の挑戦をやり抜く為、前職の退職を決意！
+          %p.txt 独学期間を経てプログラミングスクールTECH CAMP 2020年２月入学
+          %p.txt 2020年8月卒業、現在に至ります。
+
   .work
     .work-content
-      %h2#work Work
+      %h2#works Works
       .work-content__comment
         .work-content__comment__textleft
-          %h5 <フリーマーケットアプリ＞ 
+          .work-content__comment__textleft__inner
+            = link_to "http://18.181.155.100/" do
+              = image_tag 'furima1.jpg' , class: "furima_01"
+          
           = link_to "http://18.181.155.100/" do
-            = image_tag 'furima.jpg' , class: "furima_01"
+            %p.comeo フリーマーケットサイト
+          %p.come ユーザー名/admin
+          %p.come pass/ 2222
+          %p.comeh HTML/CSS/Rails/ruby/DB
+          %p.come AWS/javasript
           
-          
-          %p.come 機能/ 新規登録、ログイン、編集、etc
-          %p.comegi 技術/ HTML,CSS,Rails.AWS.DB.github
-          %p.come github
-          %p.come 制作について/ チームメンバー４名でアジャイル開発
-          %p.come 学び/ チームワークの大切さ、完成した時、一人ではなくチーム同士で称えあえる素晴らしさ。
-          %p.come 是非見てください/ 写真をクリックしたら遷移します。
-          %p.come pass/ admin,2222 url/ "http://18.181.155.100/"
+
+          = link_to "https://github.com/takeyukigoto/freemarket_sample_71a/" do
+            %p.come.g git hub
           
         .work-content__comment__textright 
-          %h5 <フットサルホームページ＞ 
+          .work-content__comment__textright__inner
+            = link_to "http://176.32.86.158/" do
+              = image_tag 'fut1.jpg' , class: "futsal_01"
           = link_to "http://176.32.86.158/" do
-            = image_tag 'fut.jpg' , class: "futsal_01"
+            %p.komeo フットサル予約サイト
+          %p.komef HTML/CSS/Javascript/ruby/rails
+          %p.komef AWS/MediaQueries
           
+          = link_to "https://github.com/takeyukigoto/futsal_komaki/" do
+            %p.come.g git hub
+  
+      .work-content__commentund
+        .work-content__commentund__textleft
+          .work-content__commentund__textleft__inner
+            = link_to "http://54.248.200.23/" do
+              = image_tag 'portfolio.jpg' , class: "furima_01"
           
-          %p.komef 機能/モーダル、アコーディオン、フェードイン,etc
-          %p.komefgi 技術/HTML,CSS,Javascript,rails.
-          %p.komef AWS.github.Media Queries
-          %p.komef 制作について/趣味のフットサル、HPを通じてよりフットサル場の集客、魅力を伝える事を意識しました。
-          %p.komef 学び/お客様目線でHPを作成する難しさ、多角的により勉強してお客様のためになるHPを作成し、貢献できる様になりたいと思いました。
-          %p.komef 是非見てください/ 写真をクリックしたら遷移します。
-          %p.komef url/ "http://176.32.86.158/
+          = link_to "http://54.248.200.23/" do
+            %p.comeundo 自己紹介ポートフォリオ
+          %p.comeund HTML/CSS/Rails/ruby/
+          %p.comeund AWS/javasript/MediaQueries
+
+          = link_to "https://github.com/takeyukigoto/takeyuki_prof" do
+            %p.come.g git hub
+
+
+
+        .work-content__commentund__textright 
+          .work-content__commentund__textright__inner
+            = link_to "http://54.150.10.60/" do
+              = image_tag 'chat-room.jpg' , class: "futsal_01"
+          = link_to "http://54.150.10.60/" do
+            %p.komeundo chatroom
+          %p.komeundf HTML/CSS/Javascript/ruby/rails
+          %p.komeundf Ajax/AWS/github/
+          
+          = link_to "https://github.com/takeyukigoto/chat-room" do
+            %p.come.g git hub
   
-  
-  
+
+          
    
   
   
@@ -96,11 +123,12 @@
     .pr-content
       %h2#pr PR
       .pr-content__comment
-        %P.prhead ○前職の社内改革での取組でテクノロジーに興味を持ちました。
-        %P.prcoment 業績も良く定時帰社できている会社様を見学に行きました。テクノロジーの力をフル活用し効率化をしている所に衝撃を受けました。
-        %P.prcoment2 テクノロジーに関わる仕事がしたい、自分の作ったもので多くの人の役に立ちたい。
-        %P.prcoment3 これまで営業マンとして周りに支えて頂き出せた、実績を一度リセットし、
-        %P.prcoment3 経験×エンジニアとして多くの人の役に立ちたいと考えてます。よろしくお願いします。
+        %P.prhead 素直な心な心を大切に、新しい事へのチャレンジ！
+        %P.prcoment 前職の営業職も未経験からのチャレンジでした！
+        %P.prcoment2 自分の考え方に固執せず、ビジネス書を読んだり、諸先輩方に営業の心得、アドバイスを
+        %P.prcoment3 いただき素直に実践。
+        %P.prcoment3 結果、多くの方々の知恵を集める事ができ、皆様に支えてもらい結果を残す事ができました。
+        %P.prcoment3 素直な心を大切に周知を集め、自分の作ったもので多くの人の役に立てるエンジニアを目指していきます！
 
 
 
@@ -109,8 +137,9 @@
       .contact-content__text
         %h2#contact Contact
         .contact-content__text__mail
-          メールアドレス　takeoamiki@hotmail.co.jp
-          ご連絡お待ちしております。
+          %p e-mail
+          %p takeoamiki@hotmail.co.jp
+          %p ご連絡お待ちしております。
         
 
         
@@ -124,8 +153,8 @@
             %a(href="#about")
               About
           %li
-            %a(href="#work")
-              Work
+            %a(href="#works")
+              Works
           %li
             %a(href="#pr")
               PR    
